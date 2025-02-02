@@ -16,7 +16,9 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center">
-                <Link to="/" className="text-xl font-bold tracking-wider">AARYA AI</Link>
+                <Link to="/" className="flex items-center">
+                  <img src="/logo.png" alt="AARYA AI Logo" className="h-8 w-auto mr-2" />
+                </Link>
               </div>
 
               {/* Desktop Navigation */}
@@ -101,7 +103,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact</h3>
-                <p className="text-gray-400">support@aaryaai.com</p>
+                <p className="text-gray-400">aarya.ai.info@gmail.com</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Follow Us</h3>

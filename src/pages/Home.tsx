@@ -4,10 +4,15 @@ import { Download, Sparkles, Palette, Zap } from 'lucide-react';
 function Home() {
   return (
     <div className="overflow-hidden">
-      {/* Hero Section */}
+      {/* Hero Section with AI Animation Background */}
       <section className="relative min-h-screen flex items-center">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
-          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black to-purple-900">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'url(/circuit-pattern.svg)',
+            backgroundSize: '200px 200px',
+            animation: 'slide 20s linear infinite',
+            opacity: 0.1
+          }}></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
@@ -86,6 +91,17 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <style>{`
+        @keyframes slide {
+          from {
+            transform: translateY(0);
+          }
+          to {
+            transform: translateY(-200px);
+          }
+        }
+      `}</style>
     </div>
   );
 }
