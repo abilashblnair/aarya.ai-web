@@ -31,6 +31,7 @@ function Privacy() {
           </ul>
         </div>
 
+
         <h2 className="text-2xl font-semibold mt-8 mb-4">3. Sharing of Information</h2>
         <p className="text-gray-300 mb-4">
           We do not sell or rent your personal data. However, we may share information with:
@@ -42,7 +43,7 @@ function Privacy() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">4. Data Security</h2>
         <p className="text-gray-300 mb-4">
-          We implement reasonable security measures to protect your data from unauthorized access, alteration, or disclosure.
+        We employ industry-standard security measures, including encryption, firewalls, and secure access controls, to protect your data from unauthorized access, alteration, or disclosure. Additionally, we conduct regular security audits, monitor our systems for potential vulnerabilities, and ensure compliance with applicable data protection regulations to safeguard your information
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">5. Your Rights</h2>
@@ -57,22 +58,22 @@ function Privacy() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">6. Retention of Data</h2>
         <p className="text-gray-300 mb-4">
-          We retain your data as long as necessary for the purposes outlined in this Privacy Policy or as required by law.
+        We retain your data for as long as necessary to fulfill the purposes outlined in this Privacy Policy or to comply with legal, regulatory, or contractual obligations. Once no longer required, we securely delete or anonymize your data in accordance with industry standards and applicable laws.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">7. Third-Party Links</h2>
         <p className="text-gray-300 mb-4">
-          Our services may contain links to third-party websites. We are not responsible for their privacy practices.
+        Our services may include links to third-party websites, which operate independently and have their own privacy policies. We do not control or assume responsibility for their content, data collection practices, or privacy policies. We encourage you to review their terms before providing any personal information.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">8. Changes to This Policy</h2>
         <p className="text-gray-300 mb-4">
-          We may update this Privacy Policy periodically. We will notify users of significant changes.
+        We may periodically update this Privacy Policy to reflect changes in our practices, legal requirements, or industry standards. If significant changes are made, we will notify users through prominent updates on our website, in-app notifications, or direct communication, as required by applicable laws.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">9. Contact Us</h2>
         <p className="text-gray-300 mb-4">
-          If you have any questions about this Privacy Policy, please contact us at <a href="mailto:aaryeaofficial@gmail.com" className="text-blue-400">aaryeaofficial@gmail.com</a>.
+          If you have any questions about this Privacy Policy, please contact us at <a href="mailto:aarya.ai.info@gmail.com" className="text-blue-400">aarya.ai.info@gmail.com</a>.
         </p>
       </div>
     </div>
