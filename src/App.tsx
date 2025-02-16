@@ -27,7 +27,7 @@ function App() {
                 <Link to="/terms" className="hover:text-purple-400 transition-colors">Terms</Link>
                 <Link to="/privacy" className="hover:text-purple-400 transition-colors">Privacy</Link>
                 <a
-                  href="https://apps.apple.com/app/aarya-ai"
+                  href="https://apps.apple.com/us/app/aarya-ai/id6740967991"
                   className="inline-flex items-center px-4 py-2 rounded-full bg-white text-black hover:bg-purple-100 transition-all"
                 >
                   <Download className="w-4 h-4 mr-2" />
