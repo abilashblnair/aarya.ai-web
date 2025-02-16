@@ -73,7 +73,7 @@ function App() {
                   Privacy
                 </Link>
                 <a
-                  href="https://apps.apple.com/app/aarya-ai"
+                  href="https://apps.apple.com/us/app/aarya-ai/id6740967991"
                   className="block px-3 py-2 rounded-md hover:bg-white/10"
                   onClick={() => setIsMenuOpen(false)}
                 >
